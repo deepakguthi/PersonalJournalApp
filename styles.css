@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+/* Journal entry form styles */
+#journal-entry-form {
+  margin-bottom: 30px;
+}
+
+#entry-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+#entry-form input,
+#entry-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#entry-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Entry list styles */
+#entry-list {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+#entry-list-container li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}

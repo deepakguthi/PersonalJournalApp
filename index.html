@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Journal App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Personal Journal App</h1>
+  </header>
+
+  <nav>
+    <!-- Navigation links if needed -->
+  </nav>
+
+  <main>
+    <section id="journal-entry-form">
+      <h2>Create a New Journal Entry</h2>
+      <form id="entry-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required></textarea>
+        <button type="submit">Save Entry</button>
+      </form>
+    </section>
+
+    <section id="entry-list">
+      <h2>Journal Entries</h2>
+      <ul id="entry-list-container">
+        <!-- Dynamically populated with JavaScript -->
+        <!-- Each journal entry should be a list item -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2023 Personal Journal App
+  </footer>
+
+  <script type="module" src="script.js"></script>
+  <script src="https://unpkg.com/node-fetch"></script>
+</body>
+</html>
